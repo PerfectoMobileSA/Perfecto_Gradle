@@ -39,4 +39,6 @@ TestNG Plugin is built-in in the IntelliJ IDEA, from version 7 onwards.</br>
 
 2. ${JOB_NAME} & ${BUILD_NUMBER} are Jenkins internal environment variables which will return the job name and current job number.</br>
 
-3. This [link](https://developers.perfectomobile.com/display/PD/Generate+security+tokens) will showcase how to generate Perfecto security token
+3. This [link](https://developers.perfectomobile.com/display/PD/Generate+security+tokens) will showcase how to generate Perfecto security token.</br>
+
+4. Note: Enter the physical location of gradle if it wasnt identified by Jenkins while executing.</br>
