@@ -22,7 +22,7 @@ TestNG Plugin is built-in in the IntelliJ IDEA, from version 7 onwards.</br>
 1. Clone/ Download this project.</br>
 2. [Eclipse] : Go to Window->Preferences->Gradle (Windows) / Eclipse->Preferences (Mac) and then pass the following arguments into "Program Arguments" section.</br>
 
-	`-PcloudName={Perfecto cloud name only. E.g. demo} -PsecurityToken={[Perfecto security token](https://developers.perfectomobile.com/display/PD/Generate+security+tokens)}`</br>
+	`-PcloudName={Perfecto cloud name only. E.g. demo} -PsecurityToken={Perfecto security token}`</br>
 3. Run gradle tasks: clean build test</br>
 
 ### Jenkins CI Dashboard integration:
@@ -30,7 +30,7 @@ TestNG Plugin is built-in in the IntelliJ IDEA, from version 7 onwards.</br>
 2. Create a build task -> Execute shell.</br>
 3. Enter the below shell command and run your job :</br>
 
-	`gradle clean build test -PcloudName={Perfecto cloud name only. E.g. demo} -PsecurityToken={[Perfecto security token](https://developers.perfectomobile.com/display/PD/Generate+security+tokens)} -PjobName=${JOB_NAME} -PjobNumber=${BUILD_NUMBER}` </br>
+	`gradle clean build test -PcloudName={Perfecto cloud name only. E.g. demo} -PsecurityToken={Perfecto security token} -PjobName=${JOB_NAME} -PjobNumber=${BUILD_NUMBER}` </br>
 
 
 #### Note: 
@@ -38,3 +38,5 @@ TestNG Plugin is built-in in the IntelliJ IDEA, from version 7 onwards.</br>
 1. Substitute your cloudName and securityToken respectively (without flower brackets).</br>
 
 2. ${JOB_NAME} & ${BUILD_NUMBER} are Jenkins internal environment variables which will return the job name and current job number.</br>
+
+3. This [link](https://developers.perfectomobile.com/display/PD/Generate+security+tokens) will showcase how to generate Perfecto security token
