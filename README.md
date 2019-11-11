@@ -1,7 +1,7 @@
 ## Perfecto + Gradle + Testng Sample</br>
 
 ### Dependencies</br>
-There are several prerequisite dependencies you should install on your machine prior to starting to work with Quantum:</br>
+There are several prerequisite dependencies you should install on your machine prior to starting to work with this project:</br>
 
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)</br>
 
