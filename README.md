@@ -35,7 +35,7 @@ TestNG Plugin is built-in in the IntelliJ IDEA, from version 7 onwards.</br>
 
 #### Note: 
 
-1. Substitute your cloudName and securityToken respectively (without flower brackets).</br>
+1. Substitute your cloudName and securityToken respectively (without flower brackets)/ pass them as job parameters.</br>
 
 2. ${JOB_NAME} & ${BUILD_NUMBER} are Jenkins internal environment variables which will return the job name and current job number.</br>
 
